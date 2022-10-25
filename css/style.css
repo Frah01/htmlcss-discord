@@ -182,7 +182,11 @@ footer{
     align-items: center;
     height: 100%;
     color: white;
+}
+
+.ul-header li:hover {
     cursor: pointer;
+    color: rgb(252, 239, 239);
 }
 
 .header-button {
@@ -389,7 +393,12 @@ span {
 
 .ul-fifth-section li {
     margin-top: 10px;
+}
+
+.ul-fifth-section li:hover {
     cursor: pointer;
+    color: rgb(252, 239, 239);
+
 }
 
 .contenuto-footer {
