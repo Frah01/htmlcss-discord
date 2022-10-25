@@ -193,6 +193,10 @@ footer{
 
 }
 
+.header-button:hover {
+      background-color: white;
+}
+
 h1{
     
     color: white;
@@ -219,6 +223,11 @@ h1{
 
 }
 
+.main-button-1:hover {
+    background-color: white;
+
+}
+
 .main-button-2 {
     
     margin-top: 20px;
@@ -229,6 +238,10 @@ h1{
     background-color: rgb(31, 31, 49);
     color: white;
     cursor: pointer;
+}
+
+.main-button-2:hover {
+    background-color: rgb(53, 53, 82);;
 }
 
 .contenuto-first-section-left {
@@ -310,6 +323,10 @@ p {
     color: white;
 }
 
+.fourth-section-button:hover {
+    background-color: rgb(147, 147, 255);
+}
+
 .fourth-section-div {
     display: flex;
     justify-content: center;
@@ -371,7 +388,8 @@ span {
 }
 
 .ul-fifth-section li {
-    padding-top: 10px;
+    margin-top: 10px;
+    cursor: pointer;
 }
 
 .contenuto-footer {
@@ -398,6 +416,10 @@ span {
     background-color: rgb(142, 142, 255);
     color: white;
     cursor: pointer;
+}
+
+.register-button:hover{
+    background-color: rgb(119, 119, 255);
 }
 
 hr {
