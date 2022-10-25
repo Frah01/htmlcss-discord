@@ -2,11 +2,16 @@
     padding: 0;
     margin: 0 auto;
     box-sizing: border-box;
+    font-family: 'Whitney', sans-serif;
+
 }
 /*INIZIO STRUTTURA HEADER*/
 header {
     background-color: lightblue;
-    width: 100%; 
+    width: 100%;
+    background-image: url(../img/jumbo.png);
+    background-size: contain;
+    height: 500px;
 }
 
 .nav-row {
@@ -17,24 +22,26 @@ header {
     align-items: center;
 }
 
-.nav-column-side {
+
+.nav-column-left-side {
     width: 25%;
-    height: 40px;
-    background-color: orange;
+    text-align: left;
+    padding-top: 2px;
+
+
+}
+.nav-column-right-side {
+    width: 25%;
+    text-align: right;
+    padding-top: 5px;
+
 
 }
 
 .nav-column-mid {
     width: 50%;
-    height: 40px;
-    background-color: orange;
 }
 
-.container-section-header {
-    width: 100%;
-    
-    background-color: rgb(3, 3, 163);
-}
 
 .row-section-header {
     max-width: 50%;
@@ -42,20 +49,21 @@ header {
     margin: 0 auto;
     display: flex;
     align-items: center;
+    margin: 50px auto;
 }
 
 .section-header-column{
     width: 100%;
-    height: 300px;
-    background-color: rgb(212, 121, 212);
+    text-align: center;
 }
 
 /*FINE STRUTTURA HEADER*/
 
 /*INIZIO STRUTTURA MAIN*/
 .container-first-section-main {
-    background-color: white;
+    
     width: 100%;
+    margin-bottom: 50px;
     
 }
 .row-section1-main {
@@ -68,18 +76,15 @@ header {
 
 .column1-section1-main {
     width: 60%;
-    height: 400px;
-    background-color: rgb(0, 102, 255);
+    
 }
 
 .column2-section1-main {
     width: 40%;
-    height: 400px;
-    background-color: palevioletred;
+   
 }
 
 .container-second-section-main {
-    background-color: lightgrey;
     width: 100%;
 }
 
@@ -88,19 +93,16 @@ header {
     margin: 0 auto;
     padding: 30px 0px 30px;
     display: flex;
-    align-items: center;
+    justify-content: flex-start;
 }
 
 .column1-section2-main {
     width: 40%;
-    height: 400px;
-    background-color: palevioletred;
 }
 
 .column2-section2-main {
     width: 60%;
-    height: 400px;
-    background-color: rgb(0, 102, 255);
+
 }
 
 .container-fourth-section-main {
@@ -178,9 +180,7 @@ footer{
 
 .header-image{
     
-    width: 100%;
-    height: 100%;
-    
+
 }
 
 .ul-header {
@@ -193,7 +193,95 @@ footer{
 }
 
 .header-button {
+     padding: 10px;
+     border-radius: 20px;
+     border: none;
+     cursor: pointer;
+
+}
+
+h1{
+    
+    color: white;
+    font-size: 50px;
+
+}
+
+.p-header {
+    color: white;
+    
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.main-button-1 {
+    
+    margin-top: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.main-button-2 {
+    
+    margin-top: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(31, 31, 49);
+    color: white;
+    cursor: pointer;
+}
+
+.contenuto-first-section-left {
+    text-align: center;
+}
+
+.contenuto-first-section-right {
+    text-align: left;
+    width: 50%;
     
 
+}
 
+
+
+h2 {
+    font-size: 40px;
+    margin-top: 30px;
+    
+
+    
+}
+
+p {
+    margin-top: 20px;
+    font-size: 18px;
+    
+    
+}
+
+.contenuto-second-section-left {
+
+    width: 50%;
+    height: 100%;
+}
+
+.contenuto-second-section-right {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+
+    
+}
+
+.contenuto-third-section-right {
+    width: 50%;
+    height: 100%;
 }
