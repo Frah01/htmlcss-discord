@@ -153,7 +153,6 @@ footer{
     width: 100%;
     height: 100px;
     background-color:  rgb(56, 55, 55);
-    margin-top: 1px
 }
 
 .footer-row {
@@ -161,13 +160,12 @@ footer{
     height: 100px;
     margin: 0 auto;
     display: flex;
-    align-items: center;
+    justify-content: space-between;
+    
 }
 
 .footer-mid-column {
     width: 100%;
-    height: 80px;
-    background-color: rgb(128, 255, 202);
 }
 
 /*INIZIO STRUTTURA FOOTER*/
@@ -186,6 +184,7 @@ footer{
     align-items: center;
     height: 100%;
     color: white;
+    cursor: pointer;
 }
 
 .header-button {
@@ -310,6 +309,7 @@ p {
     border: none;
     cursor: pointer;
     background-color: rgb(179, 179, 255);
+    color: white;
 }
 
 .fourth-section-div {
@@ -376,3 +376,33 @@ span {
     padding-top: 10px;
 }
 
+.contenuto-footer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.footer-logo {
+    margin: 0;
+}
+
+.register-button {
+    text-align: end;
+    margin: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(142, 142, 255);
+    color: white;
+    cursor: pointer;
+}
+
+hr {
+    width: 70%;
+    border: 1px solid rgb(107, 107, 247);
+}
