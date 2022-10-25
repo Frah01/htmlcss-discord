@@ -21,6 +21,7 @@ header {
     width: 25%;
     height: 40px;
     background-color: orange;
+
 }
 
 .nav-column-mid {
@@ -172,3 +173,27 @@ footer{
 }
 
 /*INIZIO STRUTTURA FOOTER*/
+
+   
+
+.header-image{
+    
+    width: 100%;
+    height: 100%;
+    
+}
+
+.ul-header {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+}
+
+.header-button {
+    
+
+
+}
