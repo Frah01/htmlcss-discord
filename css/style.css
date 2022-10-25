@@ -69,9 +69,8 @@ header {
 .row-section1-main {
     max-width: 70%;
     margin: 0 auto;
-    padding: 30px 0px 30px;
+    padding: 100px 0px 100px;
     display: flex;
-    align-items: center;
 }
 
 .column1-section1-main {
@@ -91,7 +90,7 @@ header {
 .row-section2-main {
     max-width: 70%;
     margin: 0 auto;
-    padding: 30px 0px 30px;
+    padding: 100px 0px 100px;
     display: flex;
     justify-content: flex-start;
 }
@@ -106,7 +105,6 @@ header {
 }
 
 .container-fourth-section-main {
-    background-color: lightgrey;
     width: 100%;
     
 }
@@ -121,8 +119,6 @@ header {
 
 .column-fourth-section {
     width: 100%;
-    height: 700px;
-    background-color: green;
     display: flex;
 }
 
@@ -136,20 +132,20 @@ header {
     max-width: 70%;
     margin: 0 auto;
     display: flex;
-    align-items: center;
+
 }
 
 .column-fifth-section-lg{
     width: 70%;
-    height: 700px;
-    background-color: rgba(255, 131, 152, 0.829);
+    
+    
 
 }
 
 .column-fifth-section-sm {
     width: 30%;
-    height: 700px;
-    background-color: rgb(0, 148, 148);
+    
+    
 }
 
 /*FINE STRUTTURA MAIN*/
@@ -280,8 +276,103 @@ p {
 
     
 }
+.third-section-img {
+    margin: 0;
+}
+
+.contenuto-third-section-left {
+    display: flex;
+    justify-content: flex-end;
+}
 
 .contenuto-third-section-right {
     width: 50%;
     height: 100%;
+    justify-content: flex-start;
 }
+
+.contenuto-fourth-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.fourth-section-p {
+    width: 60%;
+}
+
+.fourth-section-button {
+    margin-top: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(179, 179, 255);
+}
+
+.fourth-section-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    width: 500px;
+    height: 40px;
+    background-size: contain;
+    vertical-align: center;
+    background-image: url(../img/stars.svg);
+}
+
+h3 {
+    font-size: 30px;
+    color: rgb(142, 142, 255);
+    margin: 0;
+}
+
+h4{
+    font-size: 30px;
+    color: rgb(142, 142, 255);
+    margin: 0;
+}
+.contenuto-fifth-section-lg-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.bandiera-ita {
+    width: 20px;
+    height: 15px;
+}
+
+span {
+    color: white;
+}
+
+.lingua {
+    text-align: left;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.contenuto-fifth-section-sm-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.ul-fifth-section {
+    list-style-type: none;
+    height: 100%;
+    color: white;
+    margin: 0;
+    text-align: left;
+}
+
+.ul-fifth-section li {
+    padding-top: 10px;
+}
+
