@@ -10,7 +10,7 @@ header {
     background-color: lightblue;
     width: 100%;
     background-image: url(../img/jumbo.png);
-    background-size: contain;
+    background-size: cover;
     height: 500px;
 }
 
