@@ -193,7 +193,11 @@ footer{
      padding: 10px;
      border-radius: 20px;
      border: none;
-     cursor: pointer;
+     background-color: white;
+     text-decoration: none;
+     color: black;
+     font-weight: bold;
+    
 
 
 }
@@ -215,6 +219,7 @@ h1{
     font-size: 20px;
     margin-top: 20px;
     font-weight: bold;
+    margin-bottom: 20px;
 }
 
 .main-button-1 {
@@ -224,12 +229,18 @@ h1{
     padding: 10px 20px;
     border-radius: 20px;
     border: none;
-    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    margin-right: 20px;
+
+    
 
 }
 
 .main-button-1:hover {
     background-color: white;
+    
 
 }
 
@@ -242,7 +253,7 @@ h1{
     border: none;
     background-color: #23272a;
     color: white;
-    cursor: pointer;
+    text-decoration: none;
 }
 
 .main-button-2:hover {
@@ -324,9 +335,9 @@ p {
     padding: 10px 20px;
     border-radius: 20px;
     border: none;
-    cursor: pointer;
     background-color: #8ea1e1;
     color: white;
+    text-decoration: none;
 }
 
 .fourth-section-button:hover {
@@ -421,12 +432,12 @@ span {
     text-align: end;
     margin: 0;
     font-weight: bold;
-    padding: 10px 20px;
+    padding: 10px 15px;
     border-radius: 20px;
     border: none;
     background-color: rgb(142, 142, 255);
     color: white;
-    cursor: pointer;
+    text-decoration: none;
 }
 
 .register-button:hover{
