@@ -126,7 +126,7 @@ header {
 }
 
 .container-fifth-section-main {
-    background-color: rgb(56, 55, 55);
+    background-color: #23272a;
     width: 100%;
     padding: 30px 0px 30px;
 }
@@ -155,7 +155,7 @@ header {
 footer{
     width: 100%;
     height: 100px;
-    background-color:  rgb(56, 55, 55);
+    background-color:  #23272a;
 }
 
 .footer-row {
@@ -195,10 +195,11 @@ footer{
      border: none;
      cursor: pointer;
 
+
 }
 
 .header-button:hover {
-      background-color: white;
+      background-color: white
 }
 
 h1{
@@ -239,13 +240,13 @@ h1{
     padding: 10px 20px;
     border-radius: 20px;
     border: none;
-    background-color: rgb(31, 31, 49);
+    background-color: #23272a;
     color: white;
     cursor: pointer;
 }
 
 .main-button-2:hover {
-    background-color: rgb(53, 53, 82);;
+    background-color: #1f2325;
 }
 
 .contenuto-first-section-left {
@@ -324,7 +325,7 @@ p {
     border-radius: 20px;
     border: none;
     cursor: pointer;
-    background-color: rgb(179, 179, 255);
+    background-color: #8ea1e1;
     color: white;
 }
 
@@ -346,13 +347,13 @@ p {
 
 h3 {
     font-size: 30px;
-    color: rgb(142, 142, 255);
+    color: #7289da;
     margin: 0;
 }
 
 h4{
     font-size: 30px;
-    color: rgb(142, 142, 255);
+    color: #7289da;
     margin: 0;
 }
 .contenuto-fifth-section-lg-column {
@@ -454,5 +455,6 @@ hr {
 }
 
 .fa-brands {
-    padding: 20px 20px 0px 0px;
+    padding: 0px 20px 0px 0px;
+    margin-top: 20px;
 }
