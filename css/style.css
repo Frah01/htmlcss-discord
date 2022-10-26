@@ -91,7 +91,7 @@ header {
 
 
 .wave {
-    height: 50px;
+    height: 100px;
     opacity: 0.04;
     background-image: url(../img/wave.svg);
     background-size: cover;
