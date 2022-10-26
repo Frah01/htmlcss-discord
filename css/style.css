@@ -85,8 +85,22 @@ header {
 
 .container-second-section-main {
     width: 100%;
+    background-color: #f6f6f6;
 }
 
+
+
+.wave {
+    height: 50px;
+    opacity: 0.04;
+    background-image: url(../img/wave.svg);
+    background-size: cover;
+    
+}
+
+.upside-down {
+    transform: rotatex(0.5turn);
+}
 
 .row-section2-main {
     max-width: 70%;
@@ -109,6 +123,7 @@ header {
 
 .container-fourth-section-main {
     width: 100%;
+    background-color: #f6f6f6;
     
 }
 
