@@ -436,3 +436,23 @@ hr {
     width: 70%;
     border: 1px solid rgb(107, 107, 247);
 }
+
+.fa-twitter {
+    color: white;
+}
+
+.fa-instagram {
+    color: white;
+}
+
+.fa-facebook {
+    color: white;
+}
+
+.fa-youtube {
+    color: white;
+}
+
+.fa-brands {
+    padding: 20px 20px 0px 0px;
+}
